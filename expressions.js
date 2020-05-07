@@ -661,7 +661,7 @@ export class Term {
     }, new Expression(1));
 
     for (let i = 0; i < copy.variables.length; i++) {
-      let thislet = copy.variables[i];
+      let thisVar = copy.variables[i];
 
       let ev;
 
